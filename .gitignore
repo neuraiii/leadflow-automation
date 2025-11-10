@@ -1,0 +1,58 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === Jupyter / Notebooks ===
+.ipynb_checkpoints
+*.ipynb_save
+
+# === Environment & Config Files ===
+.env
+*.env
+config.json
+secrets.json
+
+# === VS Code ===
+.vscode/
+.history/
+*.code-workspace
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Node / JS (if you later add frontend) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# === Testing / Coverage ===
+.coverage
+.tox/
+.nox/
+pytest_cache/
+htmlcov/
+
+# === Cache / Temporary ===
+.cache/
+*.tmp
+*.bak
+*.swp
